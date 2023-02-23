@@ -21,9 +21,11 @@ export const Titulo = styled.h1`
     font-size: 50px;
     top: 70px;
     margin-bottom: 15%;
+    color: #2D2D;
+    
 
     span {
-    color: #2D2D;
+        color: #000;
   }
         
 `
@@ -44,6 +46,7 @@ export const Input = styled.input`
 `
 
 export const Botao = styled.button`
+    
     border-Radius: 4px;
     height: 50px;
     width: 40%;
@@ -52,6 +55,7 @@ export const Botao = styled.button`
     align-Items: center;
     background-Color: #2D2D;
     margin-left: 30%;
+    border: none;
 
     &:hover{
         cursor: pointer;
